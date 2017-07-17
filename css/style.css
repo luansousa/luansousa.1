@@ -1,0 +1,146 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ .row{
+	 margin-top:7px;
+ }
+ #postimage{
+	 height:260px;
+	
+ }
+ #index-banner{
+	 background: linear-gradient(60deg, rgba(26, 142, 210, 0.99), #859a99);
+ }
+ #footer{
+	 background: linear-gradient(60deg, rgba(26, 142, 210, 0.99), #859a99);
+	
+ }
+ .page-footer{
+	  background: linear-gradient(60deg, rgba(26, 142, 210, 0.99), #859a99);
+ }
+ .col{
+	 margin-bottom:5px;
+ }
+ .fa{
+	 color:white;
+ }
+ 
+ .circle{
+	 height:700px;
+ }
+body{
+	background: white;
+ 
+    
+} 
+#gray{
+	
+	border:none;
+	
+	border-bottom:none;
+}
+#black{
+	margin-top:10px;
+	border:2px solid #8d6e63;
+	margin-bottom:-15px;
+}
+#logo-container{
+	font-family: 'Anton', sans-serif;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+ 
+}
+
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+#lista{
+	margin-left:0px;
+	margin-top:-5px;
+	margin-bottom:-34px;
+
+}
+
+
+
+#formlogin{
+	width:500px;
+	height:600px;
+	margin-left:27%;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.dashboard{
+	margin-top:-6px;
+	width:250px;
+	height:500px;
+	box-shadow: 0 3px 3px 3px rgba(0,0,0,.20);
+	
+}
+#menudash{
+	background-color:blue;
+	width:250px;
+	height:500px;
+}
+
+.btn{
+	background: linear-gradient(60deg, rgba(26, 142, 210, 0.99), #859a99);
+}
+input-field input[type=date]:focus + label,
+    .input-field input[type=text]:focus + label,
+    .input-field input[type=email]:focus + label,
+    .input-field input[type=password]:focus + label {
+      color: #a1887f ;
+    }
+
+    .input-field input[type=date]:focus,
+    .input-field input[type=text]:focus,
+    .input-field input[type=email]:focus,
+    .input-field input[type=password]:focus {
+      border-bottom: 2px solid #a1887f ;
+      box-shadow: none;
